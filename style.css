@@ -7,13 +7,12 @@
 }
 
 body {
-    background-color: black;
+    box-sizing: border-box;
 }
 
 header {
     background-color: black;
     text-align: center;
-    padding-top: 15px;
     min-height: 150px;
 }
 
@@ -31,8 +30,7 @@ nav {
     
 }
 
-nav a {
-   
+nav a {  
     font-weight: 300;
     font-style: normal;
     color: white;
@@ -51,8 +49,11 @@ nav > a:hover {
 
 main {
     background-color: white;
+    justify-content: center;
+    text-align: left;
+    min-width: 300px;
+    padding: 10px 15px;
     margin: auto;
-
 }
 
 h1 {
