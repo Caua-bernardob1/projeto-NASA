@@ -74,3 +74,19 @@ p {
     font-family: "Public Sans", serif;
     font-style: normal;
 }
+
+img {
+    
+}
+
+footer { 
+    background-color: black;
+    color: white;
+}
+
+footer  img {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+    }
