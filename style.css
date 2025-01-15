@@ -52,8 +52,7 @@ main {
     justify-content: center;
     text-align: left;
     min-width: 300px;
-    padding: 10px 15px;
-    margin: auto;
+    
 }
 
 h1 {
@@ -71,7 +70,35 @@ h2 {
 }
 
 img {
-    width: '';
+    
+}
+
+div.imagensA {
+    background-color: black;
+    color: white;
+    text-align: left;
+    min-width: 300px;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+div.imagensB {
+    background-color: #17171bd8;
+    color: white;
+    text-align: left;
+    min-width: 300px;
+    padding: 20px;
+    margin: 0px;
+}
+
+div.imagensA img {
+    width: 400px;
+    height: 300px;
+}
+
+div.imagensB img {
+    width: 300px;
+    height: 200px;
 }
 
 p {
@@ -79,16 +106,21 @@ p {
     font-style: normal;
 }
 
-
-
 footer { 
     background-color: black;
     color: white;
+    padding: 20px;
+    justify-content: center; 
+    
 }
 
 footer img {
-    width: 40px;
-    height: 40px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px; 
+    }
+
+footer p {
+    padding: 20px;
     text-align: center;
-    margin: 10px;
     }
